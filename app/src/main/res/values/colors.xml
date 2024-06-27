@@ -7,4 +7,8 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="brand_color">#0A7212</color>
+    <color name="dot_transparent">#FFE9B9</color>
+    <color name="dot_indicator">#E8A71A</color>
+    <color name="desccritpion">#4B4B4B</color>
 </resources>

@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">CGPA Calculator</string>
+    <string name="app_name">Quick Solver</string>
+    <string name="first_intro">We’ll solve all maths problems\nand show the steps </string>
+    <string name="first_description">We have a wide curriculum for WAEC and British\nMathematics curriculum, so we can solve a whole lot\nof math problems.</string>
+    <string name="second_intro">Solve anything in 3 simple steps</string>
+    <string name="second_description">Select the top or sub-topic, enter the variables\nand hit calculate button and you’ll see all the solutions.</string>
+    <string name="third_intro">Subscribe to Premium to access\nall features &amp; complex solutions</string>
+    <string name="third_description">From GP Calculator, Live Help from Tutors, Complex Science\nSolutions, Access all our premium features in all subjects\nwith a small fee.</string>
+    <string name="button_description">Let’s start solving</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>
