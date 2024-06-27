@@ -5,7 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.dash.cgpacalculator.ViewPagerAdapter
+import com.dash.cgpacalculator.adapter.ViewPagerAdapter
 import com.dash.cgpacalculator.databinding.FragmentViewPagerBinding
 
 

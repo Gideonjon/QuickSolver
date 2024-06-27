@@ -1,4 +1,4 @@
-package com.dash.cgpacalculator
+package com.dash.cgpacalculator.adapter
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
