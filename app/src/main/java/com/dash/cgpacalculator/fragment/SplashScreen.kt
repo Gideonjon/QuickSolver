@@ -24,13 +24,13 @@ class SplashScreen : Fragment() {
 
         _binding = FragmentSplashScreenBinding.inflate(inflater, container, false)
         val view = binding.root
+        progressKickstart()
 
         Handler().postDelayed({
-            progressKickstart()
             Navigation.findNavController(view)
                 .navigate(R.id.action_splashScreen_to_viewPagerFragment)
 
-        }, 5000)
+        }, 9500)
 
 
 
@@ -45,7 +45,7 @@ class SplashScreen : Fragment() {
                 progressStatus += 1
 
                 // sleep the thread for 100 milliseconds
-                Thread.sleep(1000)
+                Thread.sleep(100)
 
                 // update the progress bar
                 handler.post {
