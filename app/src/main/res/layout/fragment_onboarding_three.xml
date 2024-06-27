@@ -4,16 +4,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".OnboardingThree">
+    tools:context=".onboarding.OnboardingThree">
 
 
 
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="258dp"
-        android:layout_height="266dp"
-        android:layout_marginTop="22dp"
-        android:background="@drawable/onboardingimageone"
+        android:layout_height="166dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/onboardingimagethree"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="22dp"
         android:fontFamily="@font/raleway_medium"
-        android:text="@string/first_intro"
+        android:text="@string/third_intro"
         android:textColor="@color/brand_color"
         android:textSize="17sp"
         app:layout_constraintStart_toStartOf="@+id/imageView5"
@@ -35,9 +35,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="22dp"
-        android:text="@string/first_description"
+        android:text="@string/third_description"
         android:textColor="@color/black"
-        android:textSize="13sp"
+        android:lineSpacingExtra="3dp"
+        android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />

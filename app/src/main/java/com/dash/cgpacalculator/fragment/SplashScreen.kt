@@ -1,4 +1,4 @@
-package com.dash.cgpacalculator
+package com.dash.cgpacalculator.fragment
 
 import android.os.Bundle
 import android.os.Handler
@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.Navigation
+import com.dash.cgpacalculator.R
 import com.dash.cgpacalculator.databinding.FragmentSplashScreenBinding
 
 

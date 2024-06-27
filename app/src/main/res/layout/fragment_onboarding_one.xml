@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".OnboardingOne">
+    tools:context=".onboarding.OnboardingOne">
 
 
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="258dp"
         android:layout_height="266dp"
-        android:layout_marginTop="22dp"
+        android:layout_marginTop="32dp"
         android:background="@drawable/onboardingimageone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -36,7 +36,8 @@
         android:layout_marginTop="22dp"
         android:text="@string/first_description"
         android:textColor="@color/black"
-        android:textSize="13sp"
+        android:lineSpacingExtra="3dp"
+        android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />

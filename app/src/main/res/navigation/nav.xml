@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/splashScreen"
-        android:name="com.dash.cgpacalculator.SplashScreen"
+        android:name="com.dash.cgpacalculator.fragment.SplashScreen"
         android:label="fragment_splash_screen"
         tools:layout="@layout/fragment_splash_screen" >
         <action
@@ -16,22 +16,22 @@
     </fragment>
     <fragment
         android:id="@+id/viewPagerFragment"
-        android:name="com.dash.cgpacalculator.ViewPagerFragment"
+        android:name="com.dash.cgpacalculator.onboarding.ViewPagerFragment"
         android:label="fragment_view_pager"
         tools:layout="@layout/fragment_view_pager" />
     <fragment
         android:id="@+id/onboardingOne"
-        android:name="com.dash.cgpacalculator.OnboardingOne"
+        android:name="com.dash.cgpacalculator.onboarding.OnboardingOne"
         android:label="fragment_onboarding_one"
         tools:layout="@layout/fragment_onboarding_one" />
     <fragment
         android:id="@+id/onboardingtwo"
-        android:name="com.dash.cgpacalculator.Onboardingtwo"
+        android:name="com.dash.cgpacalculator.onboarding.Onboardingtwo"
         android:label="fragment_onboardingtwo"
         tools:layout="@layout/fragment_onboardingtwo" />
     <fragment
         android:id="@+id/onboardingThree"
-        android:name="com.dash.cgpacalculator.OnboardingThree"
+        android:name="com.dash.cgpacalculator.onboarding.OnboardingThree"
         android:label="fragment_onboarding_three"
         tools:layout="@layout/fragment_onboarding_three" />
 </navigation>
